@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { NgxTreeModuleModule } from './ngx-tree-module/ngx-tree-module.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxTreeModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

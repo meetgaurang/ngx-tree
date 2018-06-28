@@ -1,7 +1,7 @@
 export class TreeNodeModel {
 
   label: string;
-  children: TreeNodeModel[];
+  children?: TreeNodeModel[];
 
   // constructor(label: string, isPublished: boolean, name: string, content: any, version: string) {
   //   this.id = id;

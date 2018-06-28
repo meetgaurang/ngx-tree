@@ -6,6 +6,11 @@ import { NgxTreeComponent } from './ngx-tree/ngx-tree.component';
   imports: [
     CommonModule
   ],
-  declarations: [NgxTreeComponent]
+  declarations: [
+    NgxTreeComponent
+  ],
+  exports: [
+    NgxTreeComponent
+  ]
 })
 export class NgxTreeModuleModule { }
