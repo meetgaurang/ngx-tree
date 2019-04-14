@@ -1,5 +1,6 @@
-<ul>
-  <li *ngFor="let node of nodes">
-    {{node.label}}
-  </li>
-</ul>
+<div>
+  <div *ngFor="node of nodes">
+    <span>{{node.label}}</span>
+    <div [nodes]="node.children" *ngIf="node.children"><span>{{node.label}}</span></div>
+  </div>
+</div>
